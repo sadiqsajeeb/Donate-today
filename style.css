@@ -43,6 +43,7 @@ body {
 
 .donate-p {
     text-align: center;
+    opacity: .8;
 }
 
 .donate-main-div {
@@ -100,6 +101,11 @@ hr {
     background-color: skyblue;
 }
 
+.food-for-family p {
+    opacity: .8;
+
+}
+
 .shelter-for-family {
     width: 25%;
     margin: 3%;
@@ -108,10 +114,136 @@ hr {
     background-color: pink;
 }
 
+.shelter-for-family p {
+    opacity: .8;
+}
+
 .education-for-child {
     width: 25%;
     margin: 3%;
     padding: 15px;
     border-radius: 5px;
     background-color: darksalmon;
+
+}
+
+.education-for-child p {
+    opacity: .8;
+}
+
+.content-aria {
+    display: flex;
+    padding-top: 40px;
+
+}
+
+.content {
+    width: 60%;
+    padding-left: 163px;
+}
+
+
+
+.content p {
+    text-align: justify;
+    width: 540px;
+    opacity: .8;
+
+}
+
+.content-img {
+    width: 30%;
+    padding-right: 165px;
+    opacity: .8;
+
+
+}
+
+.content-img img {
+    width: 373px;
+}
+
+.content-btn {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(255, 0, 0), rgb(211, 110, 60));
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    border: none;
+    margin-top: 12px;
+
+}
+
+.update {
+    text-align: center;
+}
+
+.update h1 {
+    font-size: 40px;
+}
+
+.update h4 {
+    margin-bottom: 39px;
+    opacity: .7;
+}
+
+.follwer {
+    background-color: #e3bfbf;
+    width: 670px;
+    height: 100px;
+    margin: auto;
+    padding-top: 40px;
+    margin-bottom: 49px;
+    padding-left: 200px;
+
+
+}
+
+.follwer input {
+    padding-left: 44px;
+
+
+}
+
+.footer {
+    background-color: #121212;
+    color: #a93f3f;
+    text-align: center;
+    padding: 2px;
+}
+
+.footer h2 {
+    color: #d48507;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.mail {
+
+    background-color: antiquewhite;
+    padding: 7%;
+    padding-left: 35%;
+}
+
+.mail .mailinput {
+    outline: none;
+    padding: 15px 40px 15px 40px;
+    border-radius: 6px;
+    border: none;
+    background-color: #ffffff;
+    color: crimson;
+}
+
+.mail a {
+    color: white;
+    background-color: crimson;
+    padding: 15px 25px 15px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.updatearea {
+    margin-top: 90px;
+
 }
